@@ -1,12 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hello world
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Maria Harrell Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Landing</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Maria Harrell<br><span class="home__title-color">a growing junior developer</span> <br> </h1>
+
+                    
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/maria-harrell"target="blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                   
+                    <a href="https://github.com/mariaharrell13"target="blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+                <!--coming soon-->
+                <div class="home__img">    
+                    <img src="" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Maria Harrell</h2>
+                        <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, eveniet quisquam maxime modi optio iusto exercitationem possimus, consequuntur quam, velit voluptatem omnis quo necessitatibus vitae fuga doloribus sapiente blanditiis repellendus?!
+                        Also, <a href="https://docs.google.com/document/d/1lJ0iBDxiN4kuPUaKiF7uZiIvcr_z51g7jeGqrxo5uk0/edit?usp=sharing" target="blank">here</a> is my Resume!   </p>          
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text"><li>
+                            C#
+                        </li>
+                        <li>
+                            HTML
+                        </li>
+                        <li>
+                            CSS
+                        </li>
+                        <li>
+                            Git/GitHub
+                        </li>
+                    </p>
+                    <!--
+                    <div>              
+                        <img src="" alt="" class="skills__img">
+                    </div>
+                    -->
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+                
+                <div class="skills__container bd-grid">
+                    <li>
+                        <a href="https://github.com/mariaharrell13/PairProgramingGame" style="color: white" target="blank">Pair Programing Game C# </a>(elemental version of rock, paper, scissors)
+                    </li>
+                    <li>
+                        <a href="https://github.com/mariaharrell13/staticStoreFront" style="color: white" target="blank">Static Storefront for Anime Fans</a>
+                    </li>
+
+                </div>
+                
+            </section>
+
+          
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">mariaharrell13@gmail.com
+                <br>West Lafayette Indiana
+            </p>
+            
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
